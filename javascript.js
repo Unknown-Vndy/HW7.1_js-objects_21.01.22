@@ -10,8 +10,7 @@ const student = {
       console.log(this.adress);
    },
    changeSex() {
-      // this.isMale = !(this.isMale);
-      return this.isMale = !(this.isMale);
+      this.isMale = !(this.isMale);
    },
 }
 
